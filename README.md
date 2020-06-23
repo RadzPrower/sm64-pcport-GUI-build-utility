@@ -1,5 +1,5 @@
 # sm64-pcport-installer
-A GUI tool for compiling the Super Mario 64 port into a Windows executable.
+A GUI tool for compiling the Super Mario 64 port into a Windows executable. Executable download can be found [here](https://github.com/ajohns6/sm64-pcport-GUI-build-utility/releases).
 # Introduction
 This is a GUI tool which I have developed to aid those who are unfamiliar and/or intimidated by utilzing a terminal-based interface. This simple GUI tool will perform the majority of setup required to retreive build dependencies and repository updates, complete the build itself, and even open up a window directly to the newly compiled executable or create a shortcut folder directly on your desktop (this is currently due to how saves are stored by the executable; if in the future they move saves to single, remote location, the tool will be changed to no longer require the folder).
  
