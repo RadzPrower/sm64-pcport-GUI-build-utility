@@ -12,6 +12,7 @@ While the compiling process itself can be as simple as a single click of a butto
 The build tool in general requires little in way of instructions as if you want to simply play a simple, vanilla port of the original game on PC, all you have to do is place baserom.us.z64 next to the executable and click the compile button at the bottom and the process will start.
 
 However, there are a number of options available to you should you want to control your build process just a bit more.
+
 ![GUI Illustration](https://i.imgur.com/iBEM32q.png)
 
 In the top left corner, you will have three radio buttons which you can use to select which of the three main repository you would like to pull from: Official, SM64 EX, or SM64 (nightly).
@@ -33,7 +34,7 @@ Near the bottom, we have a log field. While it does not pull information directl
 
 Speaking of troubleshooting, the two checkboxes at the bottom are for troubleshooting as well as those who just like to watch what their computer is doing behind the scenes. By default, they are both unchecked, but if you check "Show Terminal" the terminal will be unhidden and you can see information presented that is not visible from the GUI (yet). If you check "Keep Compiling Log Open" (which is disabled if "Show Terminal" is unchecked), the terminal windows will NOT close on their own. You can use this to examine them yourself or to provide in case of troubleshooting errors or other unclear issues.
 
-#Closing
+# Closing
 I hope this tool serves you well and I hope to be able to continue making updates including patch support in time. Thanks!
 
 Logo courtesy of SunlitSpace542
