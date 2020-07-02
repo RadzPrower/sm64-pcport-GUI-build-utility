@@ -63,6 +63,26 @@ namespace sm64_pcport_installer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap advanced_closed {
+            get {
+                object obj = ResourceManager.GetObject("advanced-closed", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap advanced_open {
+            get {
+                object obj = ResourceManager.GetObject("advanced-open", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap new_icon {
             get {
                 object obj = ResourceManager.GetObject("new_icon", resourceCulture);

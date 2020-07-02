@@ -117,20 +117,23 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <metadata name="folderBrowserDialog1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="outputText.Location" type="System.Drawing.Point, System.Drawing">
-    <value>9, 302</value>
+    <value>2, 294</value>
   </data>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="outputText.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>2, 2, 2, 2</value>
   </data>
   <data name="outputText.Size" type="System.Drawing.Size, System.Drawing">
-    <value>327, 123</value>
+    <value>327, 150</value>
   </data>
   <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="outputText.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
+    <value>24</value>
   </data>
   <data name="outputText.Text" xml:space="preserve">
     <value />
@@ -142,76 +145,10 @@
     <value>System.Windows.Forms.RichTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;outputText.Parent" xml:space="preserve">
-    <value>$this</value>
+    <value>panelSimple</value>
   </data>
   <data name="&gt;&gt;outputText.ZOrder" xml:space="preserve">
-    <value>21</value>
-  </data>
-  <data name="&gt;&gt;sourceButton3.Name" xml:space="preserve">
-    <value>sourceButton3</value>
-  </data>
-  <data name="&gt;&gt;sourceButton3.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;sourceButton3.Parent" xml:space="preserve">
-    <value>repoSource</value>
-  </data>
-  <data name="&gt;&gt;sourceButton3.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;sourceButton2.Name" xml:space="preserve">
-    <value>sourceButton2</value>
-  </data>
-  <data name="&gt;&gt;sourceButton2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;sourceButton2.Parent" xml:space="preserve">
-    <value>repoSource</value>
-  </data>
-  <data name="&gt;&gt;sourceButton2.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;sourceButton1.Name" xml:space="preserve">
-    <value>sourceButton1</value>
-  </data>
-  <data name="&gt;&gt;sourceButton1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;sourceButton1.Parent" xml:space="preserve">
-    <value>repoSource</value>
-  </data>
-  <data name="&gt;&gt;sourceButton1.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="repoSource.Location" type="System.Drawing.Point, System.Drawing">
-    <value>9, 10</value>
-  </data>
-  <data name="repoSource.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>2, 2, 2, 2</value>
-  </data>
-  <data name="repoSource.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>2, 2, 2, 2</value>
-  </data>
-  <data name="repoSource.Size" type="System.Drawing.Size, System.Drawing">
-    <value>146, 86</value>
-  </data>
-  <data name="repoSource.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
-  </data>
-  <data name="repoSource.Text" xml:space="preserve">
-    <value>Source</value>
-  </data>
-  <data name="&gt;&gt;repoSource.Name" xml:space="preserve">
-    <value>repoSource</value>
-  </data>
-  <data name="&gt;&gt;repoSource.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;repoSource.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;repoSource.ZOrder" xml:space="preserve">
-    <value>20</value>
+    <value>8</value>
   </data>
   <data name="sourceButton3.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -312,6 +249,36 @@
   <data name="&gt;&gt;sourceButton1.ZOrder" xml:space="preserve">
     <value>2</value>
   </data>
+  <data name="repoSource.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 3</value>
+  </data>
+  <data name="repoSource.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="repoSource.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="repoSource.Size" type="System.Drawing.Size, System.Drawing">
+    <value>146, 86</value>
+  </data>
+  <data name="repoSource.TabIndex" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="repoSource.Text" xml:space="preserve">
+    <value>Source</value>
+  </data>
+  <data name="&gt;&gt;repoSource.Name" xml:space="preserve">
+    <value>repoSource</value>
+  </data>
+  <data name="&gt;&gt;repoSource.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;repoSource.Parent" xml:space="preserve">
+    <value>panelSimple</value>
+  </data>
+  <data name="&gt;&gt;repoSource.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
   <data name="jobLabel.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
@@ -319,7 +286,7 @@
     <value>NoControl</value>
   </data>
   <data name="jobLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>9, 146</value>
+    <value>2, 138</value>
   </data>
   <data name="jobLabel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>2, 0, 2, 0</value>
@@ -328,7 +295,7 @@
     <value>210, 13</value>
   </data>
   <data name="jobLabel.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
+    <value>26</value>
   </data>
   <data name="jobLabel.Text" xml:space="preserve">
     <value>Number of jobs to allocate to build process:</value>
@@ -340,10 +307,10 @@
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;jobLabel.Parent" xml:space="preserve">
-    <value>$this</value>
+    <value>panelSimple</value>
   </data>
   <data name="&gt;&gt;jobLabel.ZOrder" xml:space="preserve">
-    <value>19</value>
+    <value>11</value>
   </data>
   <data name="updateCheck.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -352,7 +319,7 @@
     <value>NoControl</value>
   </data>
   <data name="updateCheck.Location" type="System.Drawing.Point, System.Drawing">
-    <value>9, 101</value>
+    <value>2, 93</value>
   </data>
   <data name="updateCheck.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>2, 2, 2, 2</value>
@@ -361,7 +328,7 @@
     <value>137, 17</value>
   </data>
   <data name="updateCheck.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
+    <value>27</value>
   </data>
   <data name="updateCheck.Text" xml:space="preserve">
     <value>Check for repo updates</value>
@@ -373,13 +340,13 @@
     <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;updateCheck.Parent" xml:space="preserve">
-    <value>$this</value>
+    <value>panelSimple</value>
   </data>
   <data name="&gt;&gt;updateCheck.ZOrder" xml:space="preserve">
-    <value>18</value>
+    <value>14</value>
   </data>
   <data name="jobNumber.Location" type="System.Drawing.Point, System.Drawing">
-    <value>224, 145</value>
+    <value>217, 137</value>
   </data>
   <data name="jobNumber.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>2, 2, 2, 2</value>
@@ -388,7 +355,7 @@
     <value>38, 20</value>
   </data>
   <data name="jobNumber.TabIndex" type="System.Int32, mscorlib">
-    <value>6</value>
+    <value>28</value>
   </data>
   <data name="jobNumber.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
     <value>Right</value>
@@ -400,16 +367,13 @@
     <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;jobNumber.Parent" xml:space="preserve">
-    <value>$this</value>
+    <value>panelSimple</value>
   </data>
   <data name="&gt;&gt;jobNumber.ZOrder" xml:space="preserve">
-    <value>17</value>
+    <value>18</value>
   </data>
-  <metadata name="folderBrowserDialog1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>17, 17</value>
-  </metadata>
   <data name="backupText.Location" type="System.Drawing.Point, System.Drawing">
-    <value>11, 184</value>
+    <value>4, 176</value>
   </data>
   <data name="backupText.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>2, 2, 2, 2</value>
@@ -418,7 +382,7 @@
     <value>261, 20</value>
   </data>
   <data name="backupText.TabIndex" type="System.Int32, mscorlib">
-    <value>7</value>
+    <value>29</value>
   </data>
   <data name="&gt;&gt;backupText.Name" xml:space="preserve">
     <value>backupText</value>
@@ -427,10 +391,10 @@
     <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;backupText.Parent" xml:space="preserve">
-    <value>$this</value>
+    <value>panelSimple</value>
   </data>
   <data name="&gt;&gt;backupText.ZOrder" xml:space="preserve">
-    <value>16</value>
+    <value>19</value>
   </data>
   <data name="labelBackup.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -439,7 +403,7 @@
     <value>NoControl</value>
   </data>
   <data name="labelBackup.Location" type="System.Drawing.Point, System.Drawing">
-    <value>9, 167</value>
+    <value>2, 159</value>
   </data>
   <data name="labelBackup.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>2, 0, 2, 0</value>
@@ -448,7 +412,7 @@
     <value>92, 13</value>
   </data>
   <data name="labelBackup.TabIndex" type="System.Int32, mscorlib">
-    <value>8</value>
+    <value>30</value>
   </data>
   <data name="labelBackup.Text" xml:space="preserve">
     <value>Backup Directory:</value>
@@ -460,7 +424,7 @@
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;labelBackup.Parent" xml:space="preserve">
-    <value>$this</value>
+    <value>panelSimple</value>
   </data>
   <data name="&gt;&gt;labelBackup.ZOrder" xml:space="preserve">
     <value>15</value>
@@ -475,7 +439,7 @@
     <value>NoControl</value>
   </data>
   <data name="backupBrowse.Location" type="System.Drawing.Point, System.Drawing">
-    <value>278, 182</value>
+    <value>271, 174</value>
   </data>
   <data name="backupBrowse.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>2, 2, 2, 2</value>
@@ -484,7 +448,7 @@
     <value>61, 23</value>
   </data>
   <data name="backupBrowse.TabIndex" type="System.Int32, mscorlib">
-    <value>9</value>
+    <value>31</value>
   </data>
   <data name="backupBrowse.Text" xml:space="preserve">
     <value>Browse...</value>
@@ -496,10 +460,10 @@
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;backupBrowse.Parent" xml:space="preserve">
-    <value>$this</value>
+    <value>panelSimple</value>
   </data>
   <data name="&gt;&gt;backupBrowse.ZOrder" xml:space="preserve">
-    <value>14</value>
+    <value>12</value>
   </data>
   <data name="checkDepend.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -508,7 +472,7 @@
     <value>NoControl</value>
   </data>
   <data name="checkDepend.Location" type="System.Drawing.Point, System.Drawing">
-    <value>9, 123</value>
+    <value>2, 115</value>
   </data>
   <data name="checkDepend.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>2, 2, 2, 2</value>
@@ -517,7 +481,7 @@
     <value>214, 17</value>
   </data>
   <data name="checkDepend.TabIndex" type="System.Int32, mscorlib">
-    <value>10</value>
+    <value>32</value>
   </data>
   <data name="checkDepend.Text" xml:space="preserve">
     <value>Check for MSYS2 dependency updates</value>
@@ -529,25 +493,25 @@
     <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;checkDepend.Parent" xml:space="preserve">
-    <value>$this</value>
+    <value>panelSimple</value>
   </data>
   <data name="&gt;&gt;checkDepend.ZOrder" xml:space="preserve">
-    <value>13</value>
+    <value>9</value>
   </data>
   <data name="sm64PortLogo.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
   <data name="sm64PortLogo.Location" type="System.Drawing.Point, System.Drawing">
-    <value>160, 10</value>
+    <value>153, 2</value>
   </data>
   <data name="sm64PortLogo.Size" type="System.Drawing.Size, System.Drawing">
     <value>176, 108</value>
   </data>
   <data name="sm64PortLogo.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
-    <value>CenterImage</value>
+    <value>AutoSize</value>
   </data>
   <data name="sm64PortLogo.TabIndex" type="System.Int32, mscorlib">
-    <value>11</value>
+    <value>33</value>
   </data>
   <data name="&gt;&gt;sm64PortLogo.Name" xml:space="preserve">
     <value>sm64PortLogo</value>
@@ -556,19 +520,22 @@
     <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;sm64PortLogo.Parent" xml:space="preserve">
-    <value>$this</value>
+    <value>panelSimple</value>
   </data>
   <data name="&gt;&gt;sm64PortLogo.ZOrder" xml:space="preserve">
-    <value>12</value>
+    <value>5</value>
+  </data>
+  <data name="buttonCompile.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
   <data name="buttonCompile.Location" type="System.Drawing.Point, System.Drawing">
-    <value>261, 430</value>
+    <value>255, 449</value>
   </data>
   <data name="buttonCompile.Size" type="System.Drawing.Size, System.Drawing">
     <value>75, 23</value>
   </data>
   <data name="buttonCompile.TabIndex" type="System.Int32, mscorlib">
-    <value>12</value>
+    <value>34</value>
   </data>
   <data name="buttonCompile.Text" xml:space="preserve">
     <value>Compile</value>
@@ -580,22 +547,25 @@
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;buttonCompile.Parent" xml:space="preserve">
-    <value>$this</value>
+    <value>panelSimple</value>
   </data>
   <data name="&gt;&gt;buttonCompile.ZOrder" xml:space="preserve">
-    <value>11</value>
+    <value>2</value>
   </data>
   <data name="labelMSYS2.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
+  <data name="labelMSYS2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
   <data name="labelMSYS2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>9, 206</value>
+    <value>2, 198</value>
   </data>
   <data name="labelMSYS2.Size" type="System.Drawing.Size, System.Drawing">
     <value>91, 13</value>
   </data>
   <data name="labelMSYS2.TabIndex" type="System.Int32, mscorlib">
-    <value>13</value>
+    <value>35</value>
   </data>
   <data name="labelMSYS2.Text" xml:space="preserve">
     <value>MSYS2 Directory:</value>
@@ -607,19 +577,19 @@
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;labelMSYS2.Parent" xml:space="preserve">
-    <value>$this</value>
+    <value>panelSimple</value>
   </data>
   <data name="&gt;&gt;labelMSYS2.ZOrder" xml:space="preserve">
-    <value>10</value>
+    <value>4</value>
   </data>
   <data name="textMSYS2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>11, 222</value>
+    <value>4, 214</value>
   </data>
   <data name="textMSYS2.Size" type="System.Drawing.Size, System.Drawing">
     <value>261, 20</value>
   </data>
   <data name="textMSYS2.TabIndex" type="System.Int32, mscorlib">
-    <value>14</value>
+    <value>36</value>
   </data>
   <data name="&gt;&gt;textMSYS2.Name" xml:space="preserve">
     <value>textMSYS2</value>
@@ -628,10 +598,10 @@
     <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;textMSYS2.Parent" xml:space="preserve">
-    <value>$this</value>
+    <value>panelSimple</value>
   </data>
   <data name="&gt;&gt;textMSYS2.ZOrder" xml:space="preserve">
-    <value>9</value>
+    <value>7</value>
   </data>
   <data name="buttonMSYS2.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -639,14 +609,17 @@
   <data name="buttonMSYS2.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
     <value>GrowAndShrink</value>
   </data>
+  <data name="buttonMSYS2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
   <data name="buttonMSYS2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>278, 220</value>
+    <value>271, 212</value>
   </data>
   <data name="buttonMSYS2.Size" type="System.Drawing.Size, System.Drawing">
     <value>61, 23</value>
   </data>
   <data name="buttonMSYS2.TabIndex" type="System.Int32, mscorlib">
-    <value>15</value>
+    <value>37</value>
   </data>
   <data name="buttonMSYS2.Text" xml:space="preserve">
     <value>Browse...</value>
@@ -658,25 +631,31 @@
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;buttonMSYS2.Parent" xml:space="preserve">
-    <value>$this</value>
+    <value>panelSimple</value>
   </data>
   <data name="&gt;&gt;buttonMSYS2.ZOrder" xml:space="preserve">
-    <value>8</value>
+    <value>10</value>
   </data>
   <data name="checkLog.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
+  <data name="checkLog.CheckAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
   <data name="checkLog.Enabled" type="System.Boolean, mscorlib">
     <value>False</value>
   </data>
+  <data name="checkLog.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
   <data name="checkLog.Location" type="System.Drawing.Point, System.Drawing">
-    <value>106, 434</value>
+    <value>23, 42</value>
   </data>
   <data name="checkLog.Size" type="System.Drawing.Size, System.Drawing">
     <value>149, 17</value>
   </data>
   <data name="checkLog.TabIndex" type="System.Int32, mscorlib">
-    <value>16</value>
+    <value>38</value>
   </data>
   <data name="checkLog.Text" xml:space="preserve">
     <value>Keep Compiling Log Open</value>
@@ -688,10 +667,61 @@
     <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;checkLog.Parent" xml:space="preserve">
-    <value>$this</value>
+    <value>groupBox1</value>
   </data>
   <data name="&gt;&gt;checkLog.ZOrder" xml:space="preserve">
-    <value>7</value>
+    <value>1</value>
+  </data>
+  <data name="labelROM.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelROM.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="labelROM.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 237</value>
+  </data>
+  <data name="labelROM.Size" type="System.Drawing.Size, System.Drawing">
+    <value>94, 13</value>
+  </data>
+  <data name="labelROM.TabIndex" type="System.Int32, mscorlib">
+    <value>39</value>
+  </data>
+  <data name="labelROM.Text" xml:space="preserve">
+    <value>Baserom directory:</value>
+  </data>
+  <data name="&gt;&gt;labelROM.Name" xml:space="preserve">
+    <value>labelROM</value>
+  </data>
+  <data name="&gt;&gt;labelROM.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelROM.Parent" xml:space="preserve">
+    <value>panelSimple</value>
+  </data>
+  <data name="&gt;&gt;labelROM.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="textROM.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 253</value>
+  </data>
+  <data name="textROM.Size" type="System.Drawing.Size, System.Drawing">
+    <value>261, 20</value>
+  </data>
+  <data name="textROM.TabIndex" type="System.Int32, mscorlib">
+    <value>40</value>
+  </data>
+  <data name="&gt;&gt;textROM.Name" xml:space="preserve">
+    <value>textROM</value>
+  </data>
+  <data name="&gt;&gt;textROM.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textROM.Parent" xml:space="preserve">
+    <value>panelSimple</value>
+  </data>
+  <data name="&gt;&gt;textROM.ZOrder" xml:space="preserve">
+    <value>20</value>
   </data>
   <data name="buttonROM.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -703,13 +733,13 @@
     <value>NoControl</value>
   </data>
   <data name="buttonROM.Location" type="System.Drawing.Point, System.Drawing">
-    <value>279, 259</value>
+    <value>272, 251</value>
   </data>
   <data name="buttonROM.Size" type="System.Drawing.Size, System.Drawing">
     <value>61, 23</value>
   </data>
   <data name="buttonROM.TabIndex" type="System.Int32, mscorlib">
-    <value>19</value>
+    <value>41</value>
   </data>
   <data name="buttonROM.Text" xml:space="preserve">
     <value>Browse...</value>
@@ -721,73 +751,25 @@
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;buttonROM.Parent" xml:space="preserve">
-    <value>$this</value>
+    <value>panelSimple</value>
   </data>
   <data name="&gt;&gt;buttonROM.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="textROM.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 261</value>
-  </data>
-  <data name="textROM.Size" type="System.Drawing.Size, System.Drawing">
-    <value>261, 20</value>
-  </data>
-  <data name="textROM.TabIndex" type="System.Int32, mscorlib">
-    <value>18</value>
-  </data>
-  <data name="&gt;&gt;textROM.Name" xml:space="preserve">
-    <value>textROM</value>
-  </data>
-  <data name="&gt;&gt;textROM.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;textROM.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;textROM.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
-  <data name="labelRepo.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="labelRepo.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="labelRepo.Location" type="System.Drawing.Point, System.Drawing">
-    <value>10, 245</value>
-  </data>
-  <data name="labelRepo.Size" type="System.Drawing.Size, System.Drawing">
-    <value>80, 13</value>
-  </data>
-  <data name="labelRepo.TabIndex" type="System.Int32, mscorlib">
-    <value>17</value>
-  </data>
-  <data name="labelRepo.Text" xml:space="preserve">
-    <value>ROM Directory:</value>
-  </data>
-  <data name="&gt;&gt;labelRepo.Name" xml:space="preserve">
-    <value>labelRepo</value>
-  </data>
-  <data name="&gt;&gt;labelRepo.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;labelRepo.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;labelRepo.ZOrder" xml:space="preserve">
-    <value>6</value>
+    <value>16</value>
   </data>
   <data name="labelLog.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
+  <data name="labelLog.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
   <data name="labelLog.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 287</value>
+    <value>-1, 279</value>
   </data>
   <data name="labelLog.Size" type="System.Drawing.Size, System.Drawing">
     <value>25, 13</value>
   </data>
   <data name="labelLog.TabIndex" type="System.Int32, mscorlib">
-    <value>20</value>
+    <value>42</value>
   </data>
   <data name="labelLog.Text" xml:space="preserve">
     <value>Log</value>
@@ -799,22 +781,28 @@
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;labelLog.Parent" xml:space="preserve">
-    <value>$this</value>
+    <value>panelSimple</value>
   </data>
   <data name="&gt;&gt;labelLog.ZOrder" xml:space="preserve">
-    <value>3</value>
+    <value>13</value>
   </data>
   <data name="checkTerm.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
+  <data name="checkTerm.CheckAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="checkTerm.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
   <data name="checkTerm.Location" type="System.Drawing.Point, System.Drawing">
-    <value>9, 434</value>
+    <value>76, 19</value>
   </data>
   <data name="checkTerm.Size" type="System.Drawing.Size, System.Drawing">
     <value>96, 17</value>
   </data>
   <data name="checkTerm.TabIndex" type="System.Int32, mscorlib">
-    <value>21</value>
+    <value>43</value>
   </data>
   <data name="checkTerm.Text" xml:space="preserve">
     <value>Show Terminal</value>
@@ -826,22 +814,25 @@
     <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;checkTerm.Parent" xml:space="preserve">
-    <value>$this</value>
+    <value>groupBox1</value>
   </data>
   <data name="&gt;&gt;checkTerm.ZOrder" xml:space="preserve">
-    <value>2</value>
+    <value>0</value>
   </data>
   <data name="checkShortcut.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
+  <data name="checkShortcut.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
   <data name="checkShortcut.Location" type="System.Drawing.Point, System.Drawing">
-    <value>228, 123</value>
+    <value>221, 115</value>
   </data>
   <data name="checkShortcut.Size" type="System.Drawing.Size, System.Drawing">
     <value>100, 17</value>
   </data>
   <data name="checkShortcut.TabIndex" type="System.Int32, mscorlib">
-    <value>22</value>
+    <value>44</value>
   </data>
   <data name="checkShortcut.Text" xml:space="preserve">
     <value>Create Shortcut</value>
@@ -853,19 +844,22 @@
     <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;checkShortcut.Parent" xml:space="preserve">
-    <value>$this</value>
+    <value>panelSimple</value>
   </data>
   <data name="&gt;&gt;checkShortcut.ZOrder" xml:space="preserve">
-    <value>1</value>
+    <value>6</value>
+  </data>
+  <data name="compileProgress.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
   <data name="compileProgress.Location" type="System.Drawing.Point, System.Drawing">
-    <value>9, 457</value>
+    <value>3, 449</value>
   </data>
   <data name="compileProgress.Size" type="System.Drawing.Size, System.Drawing">
-    <value>327, 23</value>
+    <value>246, 23</value>
   </data>
   <data name="compileProgress.TabIndex" type="System.Int32, mscorlib">
-    <value>23</value>
+    <value>45</value>
   </data>
   <data name="&gt;&gt;compileProgress.Name" xml:space="preserve">
     <value>compileProgress</value>
@@ -874,10 +868,570 @@
     <value>System.Windows.Forms.ProgressBar, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;compileProgress.Parent" xml:space="preserve">
-    <value>$this</value>
+    <value>panelSimple</value>
   </data>
   <data name="&gt;&gt;compileProgress.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="advancedBar.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="advancedBar.Location" type="System.Drawing.Point, System.Drawing">
+    <value>335, 2</value>
+  </data>
+  <data name="advancedBar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>28, 470</value>
+  </data>
+  <data name="advancedBar.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>AutoSize</value>
+  </data>
+  <data name="advancedBar.TabIndex" type="System.Int32, mscorlib">
+    <value>46</value>
+  </data>
+  <data name="&gt;&gt;advancedBar.Name" xml:space="preserve">
+    <value>advancedBar</value>
+  </data>
+  <data name="&gt;&gt;advancedBar.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;advancedBar.Parent" xml:space="preserve">
+    <value>panelSimple</value>
+  </data>
+  <data name="&gt;&gt;advancedBar.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="panelSimple.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="panelSimple.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
+    <value>GrowAndShrink</value>
+  </data>
+  <data name="panelSimple.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 5</value>
+  </data>
+  <data name="panelSimple.Size" type="System.Drawing.Size, System.Drawing">
+    <value>366, 475</value>
+  </data>
+  <data name="panelSimple.TabIndex" type="System.Int32, mscorlib">
+    <value>47</value>
+  </data>
+  <data name="&gt;&gt;panelSimple.Name" xml:space="preserve">
+    <value>panelSimple</value>
+  </data>
+  <data name="&gt;&gt;panelSimple.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panelSimple.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;panelSimple.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="panelAdvanced.AutoScroll" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="panelAdvanced.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="panelAdvanced.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
+    <value>GrowAndShrink</value>
+  </data>
+  <data name="advWarning.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="advWarning.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 327</value>
+  </data>
+  <data name="advWarning.Size" type="System.Drawing.Size, System.Drawing">
+    <value>176, 39</value>
+  </data>
+  <data name="advWarning.TabIndex" type="System.Int32, mscorlib">
+    <value>45</value>
+  </data>
+  <data name="advWarning.Text" xml:space="preserve">
+    <value>Advanced Build Options are subject
+to change and may, at times, be
+broken by future repo changes.</value>
+  </data>
+  <data name="&gt;&gt;advWarning.Name" xml:space="preserve">
+    <value>advWarning</value>
+  </data>
+  <data name="&gt;&gt;advWarning.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;advWarning.Parent" xml:space="preserve">
+    <value>panelAdvanced</value>
+  </data>
+  <data name="&gt;&gt;advWarning.ZOrder" xml:space="preserve">
     <value>0</value>
+  </data>
+  <data name="groupBox1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="groupBox1.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
+    <value>GrowAndShrink</value>
+  </data>
+  <data name="groupBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 246</value>
+  </data>
+  <data name="groupBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>178, 78</value>
+  </data>
+  <data name="groupBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>44</value>
+  </data>
+  <data name="groupBox1.Text" xml:space="preserve">
+    <value>Troubleshooting</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.Name" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.Parent" xml:space="preserve">
+    <value>panelAdvanced</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="makeGroup.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="makeGroup.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
+    <value>GrowAndShrink</value>
+  </data>
+  <data name="renderCombo.Items" xml:space="preserve">
+    <value>OpenGL 2.1</value>
+  </data>
+  <data name="renderCombo.Items1" xml:space="preserve">
+    <value>Direct3D 11</value>
+  </data>
+  <data name="renderCombo.Items2" xml:space="preserve">
+    <value>Direct3D 12</value>
+  </data>
+  <data name="renderCombo.Items3" xml:space="preserve">
+    <value>OpenGL 1.3</value>
+  </data>
+  <data name="renderCombo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>87, 39</value>
+  </data>
+  <data name="renderCombo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>85, 21</value>
+  </data>
+  <data name="renderCombo.TabIndex" type="System.Int32, mscorlib">
+    <value>49</value>
+  </data>
+  <data name="&gt;&gt;renderCombo.Name" xml:space="preserve">
+    <value>renderCombo</value>
+  </data>
+  <data name="&gt;&gt;renderCombo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;renderCombo.Parent" xml:space="preserve">
+    <value>makeGroup</value>
+  </data>
+  <data name="&gt;&gt;renderCombo.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="labelRender.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelRender.Location" type="System.Drawing.Point, System.Drawing">
+    <value>20, 42</value>
+  </data>
+  <data name="labelRender.Size" type="System.Drawing.Size, System.Drawing">
+    <value>62, 13</value>
+  </data>
+  <data name="labelRender.TabIndex" type="System.Int32, mscorlib">
+    <value>50</value>
+  </data>
+  <data name="labelRender.Text" xml:space="preserve">
+    <value>Render API</value>
+  </data>
+  <data name="&gt;&gt;labelRender.Name" xml:space="preserve">
+    <value>labelRender</value>
+  </data>
+  <data name="&gt;&gt;labelRender.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelRender.Parent" xml:space="preserve">
+    <value>makeGroup</value>
+  </data>
+  <data name="&gt;&gt;labelRender.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="drawCheck.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="drawCheck.CheckAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="drawCheck.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="drawCheck.Location" type="System.Drawing.Point, System.Drawing">
+    <value>59, 87</value>
+  </data>
+  <data name="drawCheck.Size" type="System.Drawing.Size, System.Drawing">
+    <value>113, 17</value>
+  </data>
+  <data name="drawCheck.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="drawCheck.Text" xml:space="preserve">
+    <value>No Draw Distance</value>
+  </data>
+  <data name="&gt;&gt;drawCheck.Name" xml:space="preserve">
+    <value>drawCheck</value>
+  </data>
+  <data name="&gt;&gt;drawCheck.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;drawCheck.Parent" xml:space="preserve">
+    <value>makeGroup</value>
+  </data>
+  <data name="&gt;&gt;drawCheck.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="extCheck.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="extCheck.CheckAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="extCheck.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="extCheck.Location" type="System.Drawing.Point, System.Drawing">
+    <value>55, 156</value>
+  </data>
+  <data name="extCheck.Size" type="System.Drawing.Size, System.Drawing">
+    <value>117, 17</value>
+  </data>
+  <data name="extCheck.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="extCheck.Text" xml:space="preserve">
+    <value>Load External Data</value>
+  </data>
+  <data name="&gt;&gt;extCheck.Name" xml:space="preserve">
+    <value>extCheck</value>
+  </data>
+  <data name="&gt;&gt;extCheck.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;extCheck.Parent" xml:space="preserve">
+    <value>makeGroup</value>
+  </data>
+  <data name="&gt;&gt;extCheck.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="saveCheck.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="saveCheck.CheckAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="saveCheck.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="saveCheck.Location" type="System.Drawing.Point, System.Drawing">
+    <value>23, 201</value>
+  </data>
+  <data name="saveCheck.Size" type="System.Drawing.Size, System.Drawing">
+    <value>149, 17</value>
+  </data>
+  <data name="saveCheck.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="saveCheck.Text" xml:space="preserve">
+    <value>Text Saves (Experimental)</value>
+  </data>
+  <data name="&gt;&gt;saveCheck.Name" xml:space="preserve">
+    <value>saveCheck</value>
+  </data>
+  <data name="&gt;&gt;saveCheck.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;saveCheck.Parent" xml:space="preserve">
+    <value>makeGroup</value>
+  </data>
+  <data name="&gt;&gt;saveCheck.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="discordCheck.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="discordCheck.CheckAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="discordCheck.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="discordCheck.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1, 178</value>
+  </data>
+  <data name="discordCheck.Size" type="System.Drawing.Size, System.Drawing">
+    <value>171, 17</value>
+  </data>
+  <data name="discordCheck.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="discordCheck.Text" xml:space="preserve">
+    <value>Enable Discord Rich Presence</value>
+  </data>
+  <data name="&gt;&gt;discordCheck.Name" xml:space="preserve">
+    <value>discordCheck</value>
+  </data>
+  <data name="&gt;&gt;discordCheck.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;discordCheck.Parent" xml:space="preserve">
+    <value>makeGroup</value>
+  </data>
+  <data name="&gt;&gt;discordCheck.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="versionLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="versionLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>89, 16</value>
+  </data>
+  <data name="versionLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>42, 13</value>
+  </data>
+  <data name="versionLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="versionLabel.Text" xml:space="preserve">
+    <value>Version</value>
+  </data>
+  <data name="&gt;&gt;versionLabel.Name" xml:space="preserve">
+    <value>versionLabel</value>
+  </data>
+  <data name="&gt;&gt;versionLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;versionLabel.Parent" xml:space="preserve">
+    <value>makeGroup</value>
+  </data>
+  <data name="&gt;&gt;versionLabel.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="verCombo.Items" xml:space="preserve">
+    <value>us</value>
+  </data>
+  <data name="verCombo.Items1" xml:space="preserve">
+    <value>jp</value>
+  </data>
+  <data name="verCombo.Items2" xml:space="preserve">
+    <value>eu</value>
+  </data>
+  <data name="verCombo.Items3" xml:space="preserve">
+    <value>sh</value>
+  </data>
+  <data name="verCombo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>137, 12</value>
+  </data>
+  <data name="verCombo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>35, 21</value>
+  </data>
+  <data name="verCombo.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;verCombo.Name" xml:space="preserve">
+    <value>verCombo</value>
+  </data>
+  <data name="&gt;&gt;verCombo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;verCombo.Parent" xml:space="preserve">
+    <value>makeGroup</value>
+  </data>
+  <data name="&gt;&gt;verCombo.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="textureCheck.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="textureCheck.CheckAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="textureCheck.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="textureCheck.Location" type="System.Drawing.Point, System.Drawing">
+    <value>41, 110</value>
+  </data>
+  <data name="textureCheck.Size" type="System.Drawing.Size, System.Drawing">
+    <value>131, 17</value>
+  </data>
+  <data name="textureCheck.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="textureCheck.Text" xml:space="preserve">
+    <value>Texture Fix (smoke fix)</value>
+  </data>
+  <data name="&gt;&gt;textureCheck.Name" xml:space="preserve">
+    <value>textureCheck</value>
+  </data>
+  <data name="&gt;&gt;textureCheck.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textureCheck.Parent" xml:space="preserve">
+    <value>makeGroup</value>
+  </data>
+  <data name="&gt;&gt;textureCheck.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="optionsCheck.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="optionsCheck.CheckAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="optionsCheck.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="optionsCheck.Location" type="System.Drawing.Point, System.Drawing">
+    <value>53, 133</value>
+  </data>
+  <data name="optionsCheck.Size" type="System.Drawing.Size, System.Drawing">
+    <value>119, 17</value>
+  </data>
+  <data name="optionsCheck.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="optionsCheck.Text" xml:space="preserve">
+    <value>Extra Options Menu</value>
+  </data>
+  <data name="&gt;&gt;optionsCheck.Name" xml:space="preserve">
+    <value>optionsCheck</value>
+  </data>
+  <data name="&gt;&gt;optionsCheck.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;optionsCheck.Parent" xml:space="preserve">
+    <value>makeGroup</value>
+  </data>
+  <data name="&gt;&gt;optionsCheck.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="camCheck.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="camCheck.CheckAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="camCheck.Location" type="System.Drawing.Point, System.Drawing">
+    <value>97, 64</value>
+  </data>
+  <data name="camCheck.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 17</value>
+  </data>
+  <data name="camCheck.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="camCheck.Text" xml:space="preserve">
+    <value>BetterCam</value>
+  </data>
+  <data name="&gt;&gt;camCheck.Name" xml:space="preserve">
+    <value>camCheck</value>
+  </data>
+  <data name="&gt;&gt;camCheck.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;camCheck.Parent" xml:space="preserve">
+    <value>makeGroup</value>
+  </data>
+  <data name="&gt;&gt;camCheck.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="makeGroup.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <data name="makeGroup.Size" type="System.Drawing.Size, System.Drawing">
+    <value>178, 237</value>
+  </data>
+  <data name="makeGroup.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="makeGroup.Text" xml:space="preserve">
+    <value>Make Options</value>
+  </data>
+  <data name="&gt;&gt;makeGroup.Name" xml:space="preserve">
+    <value>makeGroup</value>
+  </data>
+  <data name="&gt;&gt;makeGroup.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;makeGroup.Parent" xml:space="preserve">
+    <value>panelAdvanced</value>
+  </data>
+  <data name="&gt;&gt;makeGroup.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="panelAdvanced.Location" type="System.Drawing.Point, System.Drawing">
+    <value>377, 5</value>
+  </data>
+  <data name="panelAdvanced.Size" type="System.Drawing.Size, System.Drawing">
+    <value>184, 366</value>
+  </data>
+  <data name="panelAdvanced.TabIndex" type="System.Int32, mscorlib">
+    <value>48</value>
+  </data>
+  <data name="panelAdvanced.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;panelAdvanced.Name" xml:space="preserve">
+    <value>panelAdvanced</value>
+  </data>
+  <data name="&gt;&gt;panelAdvanced.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panelAdvanced.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;panelAdvanced.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="n64Check.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="n64Check.CheckAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="n64Check.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="n64Check.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1211, 516</value>
+  </data>
+  <data name="n64Check.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 17</value>
+  </data>
+  <data name="n64Check.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="n64Check.Text" xml:space="preserve">
+    <value>Build N64 ROM</value>
+  </data>
+  <data name="n64Check.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;n64Check.Name" xml:space="preserve">
+    <value>n64Check</value>
+  </data>
+  <data name="&gt;&gt;n64Check.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;n64Check.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;n64Check.ZOrder" xml:space="preserve">
+    <value>2</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
@@ -885,8 +1439,14 @@
   <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
     <value>6, 13</value>
   </data>
+  <data name="$this.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="$this.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
+    <value>GrowAndShrink</value>
+  </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>344, 484</value>
+    <value>1385, 620</value>
   </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -4153,6 +4713,9 @@
         AAAA/58AAP8fAAC/HwAAgB8AAIAPAADABwAA4AMAAOAAAADgAAAAwAMAAMAHAACADwAAiB8AAP8fAAD/
         HwAA/58AAA==
 </value>
+  </data>
+  <data name="$this.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
     <value>SM64 Port Installer</value>

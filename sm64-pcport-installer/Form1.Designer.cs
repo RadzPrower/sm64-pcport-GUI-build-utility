@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Main));
+            this.folderBrowserDialog1 = new System.Windows.Forms.FolderBrowserDialog();
             this.outputText = new System.Windows.Forms.RichTextBox();
             this.repoSource = new System.Windows.Forms.GroupBox();
             this.sourceButton3 = new System.Windows.Forms.RadioButton();
@@ -37,7 +38,6 @@
             this.jobLabel = new System.Windows.Forms.Label();
             this.updateCheck = new System.Windows.Forms.CheckBox();
             this.jobNumber = new System.Windows.Forms.NumericUpDown();
-            this.folderBrowserDialog1 = new System.Windows.Forms.FolderBrowserDialog();
             this.backupText = new System.Windows.Forms.TextBox();
             this.labelBackup = new System.Windows.Forms.Label();
             this.backupBrowse = new System.Windows.Forms.Button();
@@ -48,16 +48,39 @@
             this.textMSYS2 = new System.Windows.Forms.TextBox();
             this.buttonMSYS2 = new System.Windows.Forms.Button();
             this.checkLog = new System.Windows.Forms.CheckBox();
-            this.buttonROM = new System.Windows.Forms.Button();
+            this.labelROM = new System.Windows.Forms.Label();
             this.textROM = new System.Windows.Forms.TextBox();
-            this.labelRepo = new System.Windows.Forms.Label();
+            this.buttonROM = new System.Windows.Forms.Button();
             this.labelLog = new System.Windows.Forms.Label();
             this.checkTerm = new System.Windows.Forms.CheckBox();
             this.checkShortcut = new System.Windows.Forms.CheckBox();
             this.compileProgress = new System.Windows.Forms.ProgressBar();
+            this.advancedBar = new System.Windows.Forms.PictureBox();
+            this.panelSimple = new System.Windows.Forms.Panel();
+            this.panelAdvanced = new System.Windows.Forms.Panel();
+            this.makeGroup = new System.Windows.Forms.GroupBox();
+            this.renderCombo = new System.Windows.Forms.ComboBox();
+            this.labelRender = new System.Windows.Forms.Label();
+            this.drawCheck = new System.Windows.Forms.CheckBox();
+            this.extCheck = new System.Windows.Forms.CheckBox();
+            this.saveCheck = new System.Windows.Forms.CheckBox();
+            this.discordCheck = new System.Windows.Forms.CheckBox();
+            this.versionLabel = new System.Windows.Forms.Label();
+            this.verCombo = new System.Windows.Forms.ComboBox();
+            this.textureCheck = new System.Windows.Forms.CheckBox();
+            this.optionsCheck = new System.Windows.Forms.CheckBox();
+            this.camCheck = new System.Windows.Forms.CheckBox();
+            this.n64Check = new System.Windows.Forms.CheckBox();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.advWarning = new System.Windows.Forms.Label();
             this.repoSource.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.jobNumber)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.sm64PortLogo)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.advancedBar)).BeginInit();
+            this.panelSimple.SuspendLayout();
+            this.panelAdvanced.SuspendLayout();
+            this.makeGroup.SuspendLayout();
+            this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
             // outputText
@@ -92,9 +115,7 @@
             // sourceButton1
             // 
             resources.ApplyResources(this.sourceButton1, "sourceButton1");
-            this.sourceButton1.Checked = true;
             this.sourceButton1.Name = "sourceButton1";
-            this.sourceButton1.TabStop = true;
             this.sourceButton1.UseVisualStyleBackColor = true;
             this.sourceButton1.CheckedChanged += new System.EventHandler(this.sourceButton1_CheckedChanged);
             // 
@@ -144,6 +165,7 @@
             // 
             // sm64PortLogo
             // 
+            this.sm64PortLogo.Image = global::sm64_pcport_installer.Properties.Resources.new_icon;
             resources.ApplyResources(this.sm64PortLogo, "sm64PortLogo");
             this.sm64PortLogo.Name = "sm64PortLogo";
             this.sm64PortLogo.TabStop = false;
@@ -179,23 +201,23 @@
             this.checkLog.UseVisualStyleBackColor = true;
             this.checkLog.CheckedChanged += new System.EventHandler(this.checkLog_CheckedChanged);
             // 
-            // buttonROM
+            // labelROM
             // 
-            resources.ApplyResources(this.buttonROM, "buttonROM");
-            this.buttonROM.Name = "buttonROM";
-            this.buttonROM.UseVisualStyleBackColor = true;
-            this.buttonROM.Click += new System.EventHandler(this.buttonROM_Click);
+            this.labelROM.AutoEllipsis = true;
+            resources.ApplyResources(this.labelROM, "labelROM");
+            this.labelROM.Name = "labelROM";
             // 
             // textROM
             // 
             resources.ApplyResources(this.textROM, "textROM");
             this.textROM.Name = "textROM";
             // 
-            // labelRepo
+            // buttonROM
             // 
-            this.labelRepo.AutoEllipsis = true;
-            resources.ApplyResources(this.labelRepo, "labelRepo");
-            this.labelRepo.Name = "labelRepo";
+            resources.ApplyResources(this.buttonROM, "buttonROM");
+            this.buttonROM.Name = "buttonROM";
+            this.buttonROM.UseVisualStyleBackColor = true;
+            this.buttonROM.Click += new System.EventHandler(this.buttonROM_Click);
             // 
             // labelLog
             // 
@@ -222,44 +244,199 @@
             this.compileProgress.Name = "compileProgress";
             this.compileProgress.Style = System.Windows.Forms.ProgressBarStyle.Continuous;
             // 
+            // advancedBar
+            // 
+            this.advancedBar.Image = global::sm64_pcport_installer.Properties.Resources.advanced_closed;
+            resources.ApplyResources(this.advancedBar, "advancedBar");
+            this.advancedBar.InitialImage = global::sm64_pcport_installer.Properties.Resources.advanced_closed;
+            this.advancedBar.Name = "advancedBar";
+            this.advancedBar.TabStop = false;
+            this.advancedBar.Click += new System.EventHandler(this.advancedBar_Click);
+            // 
+            // panelSimple
+            // 
+            resources.ApplyResources(this.panelSimple, "panelSimple");
+            this.panelSimple.Controls.Add(this.repoSource);
+            this.panelSimple.Controls.Add(this.advancedBar);
+            this.panelSimple.Controls.Add(this.buttonCompile);
+            this.panelSimple.Controls.Add(this.compileProgress);
+            this.panelSimple.Controls.Add(this.labelMSYS2);
+            this.panelSimple.Controls.Add(this.sm64PortLogo);
+            this.panelSimple.Controls.Add(this.checkShortcut);
+            this.panelSimple.Controls.Add(this.textMSYS2);
+            this.panelSimple.Controls.Add(this.outputText);
+            this.panelSimple.Controls.Add(this.checkDepend);
+            this.panelSimple.Controls.Add(this.buttonMSYS2);
+            this.panelSimple.Controls.Add(this.jobLabel);
+            this.panelSimple.Controls.Add(this.backupBrowse);
+            this.panelSimple.Controls.Add(this.labelLog);
+            this.panelSimple.Controls.Add(this.updateCheck);
+            this.panelSimple.Controls.Add(this.labelBackup);
+            this.panelSimple.Controls.Add(this.buttonROM);
+            this.panelSimple.Controls.Add(this.labelROM);
+            this.panelSimple.Controls.Add(this.jobNumber);
+            this.panelSimple.Controls.Add(this.backupText);
+            this.panelSimple.Controls.Add(this.textROM);
+            this.panelSimple.Name = "panelSimple";
+            // 
+            // panelAdvanced
+            // 
+            resources.ApplyResources(this.panelAdvanced, "panelAdvanced");
+            this.panelAdvanced.Controls.Add(this.advWarning);
+            this.panelAdvanced.Controls.Add(this.groupBox1);
+            this.panelAdvanced.Controls.Add(this.makeGroup);
+            this.panelAdvanced.Name = "panelAdvanced";
+            // 
+            // makeGroup
+            // 
+            resources.ApplyResources(this.makeGroup, "makeGroup");
+            this.makeGroup.Controls.Add(this.renderCombo);
+            this.makeGroup.Controls.Add(this.labelRender);
+            this.makeGroup.Controls.Add(this.drawCheck);
+            this.makeGroup.Controls.Add(this.extCheck);
+            this.makeGroup.Controls.Add(this.saveCheck);
+            this.makeGroup.Controls.Add(this.discordCheck);
+            this.makeGroup.Controls.Add(this.versionLabel);
+            this.makeGroup.Controls.Add(this.verCombo);
+            this.makeGroup.Controls.Add(this.textureCheck);
+            this.makeGroup.Controls.Add(this.optionsCheck);
+            this.makeGroup.Controls.Add(this.camCheck);
+            this.makeGroup.Name = "makeGroup";
+            this.makeGroup.TabStop = false;
+            // 
+            // renderCombo
+            // 
+            this.renderCombo.FormattingEnabled = true;
+            this.renderCombo.Items.AddRange(new object[] {
+            resources.GetString("renderCombo.Items"),
+            resources.GetString("renderCombo.Items1"),
+            resources.GetString("renderCombo.Items2"),
+            resources.GetString("renderCombo.Items3")});
+            resources.ApplyResources(this.renderCombo, "renderCombo");
+            this.renderCombo.Name = "renderCombo";
+            this.renderCombo.SelectedIndexChanged += new System.EventHandler(this.renderCombo_SelectedIndexChanged);
+            // 
+            // labelRender
+            // 
+            resources.ApplyResources(this.labelRender, "labelRender");
+            this.labelRender.Name = "labelRender";
+            // 
+            // drawCheck
+            // 
+            resources.ApplyResources(this.drawCheck, "drawCheck");
+            this.drawCheck.Name = "drawCheck";
+            this.drawCheck.UseVisualStyleBackColor = true;
+            this.drawCheck.CheckedChanged += new System.EventHandler(this.drawCheck_CheckedChanged);
+            // 
+            // extCheck
+            // 
+            resources.ApplyResources(this.extCheck, "extCheck");
+            this.extCheck.Name = "extCheck";
+            this.extCheck.UseVisualStyleBackColor = true;
+            this.extCheck.CheckedChanged += new System.EventHandler(this.extCheck_CheckedChanged);
+            // 
+            // saveCheck
+            // 
+            resources.ApplyResources(this.saveCheck, "saveCheck");
+            this.saveCheck.Name = "saveCheck";
+            this.saveCheck.UseVisualStyleBackColor = true;
+            this.saveCheck.CheckedChanged += new System.EventHandler(this.saveCheck_CheckedChanged);
+            // 
+            // discordCheck
+            // 
+            resources.ApplyResources(this.discordCheck, "discordCheck");
+            this.discordCheck.Name = "discordCheck";
+            this.discordCheck.UseVisualStyleBackColor = true;
+            this.discordCheck.CheckedChanged += new System.EventHandler(this.discordCheck_CheckedChanged);
+            // 
+            // versionLabel
+            // 
+            resources.ApplyResources(this.versionLabel, "versionLabel");
+            this.versionLabel.Name = "versionLabel";
+            // 
+            // verCombo
+            // 
+            this.verCombo.FormattingEnabled = true;
+            this.verCombo.Items.AddRange(new object[] {
+            resources.GetString("verCombo.Items"),
+            resources.GetString("verCombo.Items1"),
+            resources.GetString("verCombo.Items2"),
+            resources.GetString("verCombo.Items3")});
+            resources.ApplyResources(this.verCombo, "verCombo");
+            this.verCombo.Name = "verCombo";
+            this.verCombo.SelectedIndexChanged += new System.EventHandler(this.verCombo_SelectedIndexChanged);
+            // 
+            // textureCheck
+            // 
+            resources.ApplyResources(this.textureCheck, "textureCheck");
+            this.textureCheck.Name = "textureCheck";
+            this.textureCheck.UseVisualStyleBackColor = true;
+            this.textureCheck.CheckedChanged += new System.EventHandler(this.textureCheck_CheckedChanged);
+            // 
+            // optionsCheck
+            // 
+            resources.ApplyResources(this.optionsCheck, "optionsCheck");
+            this.optionsCheck.Name = "optionsCheck";
+            this.optionsCheck.UseVisualStyleBackColor = true;
+            this.optionsCheck.CheckedChanged += new System.EventHandler(this.optionsCheck_CheckedChanged);
+            // 
+            // camCheck
+            // 
+            resources.ApplyResources(this.camCheck, "camCheck");
+            this.camCheck.Name = "camCheck";
+            this.camCheck.UseVisualStyleBackColor = true;
+            this.camCheck.CheckedChanged += new System.EventHandler(this.camCheck_CheckedChanged);
+            // 
+            // n64Check
+            // 
+            resources.ApplyResources(this.n64Check, "n64Check");
+            this.n64Check.Name = "n64Check";
+            this.n64Check.UseVisualStyleBackColor = true;
+            this.n64Check.CheckedChanged += new System.EventHandler(this.n64Check_CheckedChanged);
+            // 
+            // groupBox1
+            // 
+            resources.ApplyResources(this.groupBox1, "groupBox1");
+            this.groupBox1.Controls.Add(this.checkTerm);
+            this.groupBox1.Controls.Add(this.checkLog);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.TabStop = false;
+            // 
+            // advWarning
+            // 
+            resources.ApplyResources(this.advWarning, "advWarning");
+            this.advWarning.Name = "advWarning";
+            // 
             // Main
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Controls.Add(this.compileProgress);
-            this.Controls.Add(this.checkShortcut);
-            this.Controls.Add(this.checkTerm);
-            this.Controls.Add(this.labelLog);
-            this.Controls.Add(this.buttonROM);
-            this.Controls.Add(this.textROM);
-            this.Controls.Add(this.labelRepo);
-            this.Controls.Add(this.checkLog);
-            this.Controls.Add(this.buttonMSYS2);
-            this.Controls.Add(this.textMSYS2);
-            this.Controls.Add(this.labelMSYS2);
-            this.Controls.Add(this.buttonCompile);
-            this.Controls.Add(this.sm64PortLogo);
-            this.Controls.Add(this.checkDepend);
-            this.Controls.Add(this.backupBrowse);
-            this.Controls.Add(this.labelBackup);
-            this.Controls.Add(this.backupText);
-            this.Controls.Add(this.jobNumber);
-            this.Controls.Add(this.updateCheck);
-            this.Controls.Add(this.jobLabel);
-            this.Controls.Add(this.repoSource);
-            this.Controls.Add(this.outputText);
+            this.Controls.Add(this.panelAdvanced);
+            this.Controls.Add(this.panelSimple);
+            this.Controls.Add(this.n64Check);
             this.Name = "Main";
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.Main_FormClosing);
             this.Load += new System.EventHandler(this.Main_Load);
             this.repoSource.ResumeLayout(false);
             this.repoSource.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.jobNumber)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.sm64PortLogo)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.advancedBar)).EndInit();
+            this.panelSimple.ResumeLayout(false);
+            this.panelSimple.PerformLayout();
+            this.panelAdvanced.ResumeLayout(false);
+            this.panelAdvanced.PerformLayout();
+            this.makeGroup.ResumeLayout(false);
+            this.makeGroup.PerformLayout();
+            this.groupBox1.ResumeLayout(false);
+            this.groupBox1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
         }
 
         #endregion
+        private System.Windows.Forms.FolderBrowserDialog folderBrowserDialog1;
         private System.Windows.Forms.RichTextBox outputText;
         private System.Windows.Forms.GroupBox repoSource;
         private System.Windows.Forms.RadioButton sourceButton3;
@@ -268,7 +445,6 @@
         private System.Windows.Forms.Label jobLabel;
         private System.Windows.Forms.CheckBox updateCheck;
         private System.Windows.Forms.NumericUpDown jobNumber;
-        private System.Windows.Forms.FolderBrowserDialog folderBrowserDialog1;
         private System.Windows.Forms.TextBox backupText;
         private System.Windows.Forms.Label labelBackup;
         private System.Windows.Forms.Button backupBrowse;
@@ -279,13 +455,31 @@
         private System.Windows.Forms.TextBox textMSYS2;
         private System.Windows.Forms.Button buttonMSYS2;
         private System.Windows.Forms.CheckBox checkLog;
-        private System.Windows.Forms.Button buttonROM;
+        private System.Windows.Forms.Label labelROM;
         private System.Windows.Forms.TextBox textROM;
-        private System.Windows.Forms.Label labelRepo;
+        private System.Windows.Forms.Button buttonROM;
         private System.Windows.Forms.Label labelLog;
         private System.Windows.Forms.CheckBox checkTerm;
         private System.Windows.Forms.CheckBox checkShortcut;
         private System.Windows.Forms.ProgressBar compileProgress;
+        private System.Windows.Forms.PictureBox advancedBar;
+        private System.Windows.Forms.Panel panelSimple;
+        private System.Windows.Forms.Panel panelAdvanced;
+        private System.Windows.Forms.GroupBox makeGroup;
+        private System.Windows.Forms.Label versionLabel;
+        private System.Windows.Forms.ComboBox verCombo;
+        private System.Windows.Forms.CheckBox extCheck;
+        private System.Windows.Forms.CheckBox n64Check;
+        private System.Windows.Forms.CheckBox discordCheck;
+        private System.Windows.Forms.CheckBox saveCheck;
+        private System.Windows.Forms.CheckBox optionsCheck;
+        private System.Windows.Forms.CheckBox textureCheck;
+        private System.Windows.Forms.CheckBox camCheck;
+        private System.Windows.Forms.CheckBox drawCheck;
+        private System.Windows.Forms.ComboBox renderCombo;
+        private System.Windows.Forms.Label labelRender;
+        private System.Windows.Forms.Label advWarning;
+        private System.Windows.Forms.GroupBox groupBox1;
     }
 }
 
