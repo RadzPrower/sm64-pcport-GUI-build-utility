@@ -5,8 +5,9 @@ This is a GUI tool which I have developed to aid those who are unfamiliar and/or
  
 # Prerequisites
 While the compiling process itself can be as simple as a single click of a button, there are two requirements priortto utilizing the tool:
-1. Install and update MSYS2. Download and directions can be found at https://www.msys2.org/.
-2. Legally obtain a copy of the US version of Super Mario 64 ROM file. This z64 file should be renamed to baserom.us.z64.
+1. .NET 4.7.2 Runtime. This can be downloaded at https://dotnet.microsoft.com/download/dotnet-framework/net472.
+2. Install and update MSYS2. Download and directions can be found at https://www.msys2.org/.
+3. Legally obtain a copy of the US version of Super Mario 64 ROM file. This z64 file should be renamed to baserom.us.z64.
 
 # Features
 The build tool in general requires little in way of instructions as if you want to simply play a simple, vanilla port of the original game on PC, all you have to do is place baserom.us.z64 next to the executable and click the compile button at the bottom and the process will start.
