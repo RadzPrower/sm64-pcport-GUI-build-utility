@@ -138,6 +138,15 @@
   <data name="outputText.Text" xml:space="preserve">
     <value />
   </data>
+  <metadata name="toolTipMain.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>186, 17</value>
+  </metadata>
+  <data name="outputText.ToolTip" xml:space="preserve">
+    <value>This is the output of the logging done by the
+application. It allows you to keep track of the
+changes you have made and will print out some
+output from terminal sessions when applicable.</value>
+  </data>
   <data name="&gt;&gt;outputText.Name" xml:space="preserve">
     <value>outputText</value>
   </data>
@@ -149,27 +158,6 @@
   </data>
   <data name="&gt;&gt;outputText.ZOrder" xml:space="preserve">
     <value>8</value>
-  </data>
-  <data name="sourceButton3.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="sourceButton3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="sourceButton3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 38</value>
-  </data>
-  <data name="sourceButton3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>2, 2, 2, 2</value>
-  </data>
-  <data name="sourceButton3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>101, 17</value>
-  </data>
-  <data name="sourceButton3.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="sourceButton3.Text" xml:space="preserve">
-    <value>SM64 EX (main)</value>
   </data>
   <data name="&gt;&gt;sourceButton3.Name" xml:space="preserve">
     <value>sourceButton3</value>
@@ -183,27 +171,6 @@
   <data name="&gt;&gt;sourceButton3.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <data name="sourceButton2.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="sourceButton2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="sourceButton2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 59</value>
-  </data>
-  <data name="sourceButton2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>2, 2, 2, 2</value>
-  </data>
-  <data name="sourceButton2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>109, 17</value>
-  </data>
-  <data name="sourceButton2.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="sourceButton2.Text" xml:space="preserve">
-    <value>SM64 EX (nightly)</value>
-  </data>
   <data name="&gt;&gt;sourceButton2.Name" xml:space="preserve">
     <value>sourceButton2</value>
   </data>
@@ -215,27 +182,6 @@
   </data>
   <data name="&gt;&gt;sourceButton2.ZOrder" xml:space="preserve">
     <value>1</value>
-  </data>
-  <data name="sourceButton1.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="sourceButton1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="sourceButton1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 17</value>
-  </data>
-  <data name="sourceButton1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>2, 2, 2, 2</value>
-  </data>
-  <data name="sourceButton1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>57, 17</value>
-  </data>
-  <data name="sourceButton1.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="sourceButton1.Text" xml:space="preserve">
-    <value>Official</value>
   </data>
   <data name="&gt;&gt;sourceButton1.Name" xml:space="preserve">
     <value>sourceButton1</value>
@@ -279,6 +225,123 @@
   <data name="&gt;&gt;repoSource.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
+  <data name="sourceButton3.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="sourceButton3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="sourceButton3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 38</value>
+  </data>
+  <data name="sourceButton3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="sourceButton3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>101, 17</value>
+  </data>
+  <data name="sourceButton3.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="sourceButton3.Text" xml:space="preserve">
+    <value>SM64 EX (main)</value>
+  </data>
+  <data name="sourceButton3.ToolTip" xml:space="preserve">
+    <value>This is the repository for the EX version of the
+Super Mario 64 port. It includes some level of
+mod support which varies slightly from
+release to release. This is however the main
+repo and is considered relatively stable.</value>
+  </data>
+  <data name="&gt;&gt;sourceButton3.Name" xml:space="preserve">
+    <value>sourceButton3</value>
+  </data>
+  <data name="&gt;&gt;sourceButton3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;sourceButton3.Parent" xml:space="preserve">
+    <value>repoSource</value>
+  </data>
+  <data name="&gt;&gt;sourceButton3.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="sourceButton2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="sourceButton2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="sourceButton2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 59</value>
+  </data>
+  <data name="sourceButton2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="sourceButton2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>109, 17</value>
+  </data>
+  <data name="sourceButton2.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="sourceButton2.Text" xml:space="preserve">
+    <value>SM64 EX (nightly)</value>
+  </data>
+  <data name="sourceButton2.ToolTip" xml:space="preserve">
+    <value>This is the nightly repository of the EX version.
+It is updated frequently, but as a consequence
+may break itself, mods, or other functionality.</value>
+  </data>
+  <data name="&gt;&gt;sourceButton2.Name" xml:space="preserve">
+    <value>sourceButton2</value>
+  </data>
+  <data name="&gt;&gt;sourceButton2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;sourceButton2.Parent" xml:space="preserve">
+    <value>repoSource</value>
+  </data>
+  <data name="&gt;&gt;sourceButton2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="sourceButton1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="sourceButton1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="sourceButton1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 17</value>
+  </data>
+  <data name="sourceButton1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="sourceButton1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>57, 17</value>
+  </data>
+  <data name="sourceButton1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="sourceButton1.Text" xml:space="preserve">
+    <value>Official</value>
+  </data>
+  <data name="sourceButton1.ToolTip" xml:space="preserve">
+    <value>The official repository of the Super Mario 64 PC Port.
+This repository should be considered the vanilla repository
+and should be used if you simply want to play the game
+as it originally was on the N64.</value>
+  </data>
+  <data name="&gt;&gt;sourceButton1.Name" xml:space="preserve">
+    <value>sourceButton1</value>
+  </data>
+  <data name="&gt;&gt;sourceButton1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;sourceButton1.Parent" xml:space="preserve">
+    <value>repoSource</value>
+  </data>
+  <data name="&gt;&gt;sourceButton1.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
   <data name="jobLabel.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
@@ -299,6 +362,20 @@
   </data>
   <data name="jobLabel.Text" xml:space="preserve">
     <value>Number of jobs to allocate to build process:</value>
+  </data>
+  <data name="jobLabel.ToolTip" xml:space="preserve">
+    <value>This determines the number of jobs that will be
+allocated to the build process. By default, it is set to
+the number of cores of your system minus 2, but
+can be changed to any number you choose. Larger
+numbers can speed up the process to a certain
+point. Eventually performance takes an overall hit in
+some cases however.
+
+WARNING: If the value is set to 0, NO limit will be
+put into place. This could be problematic, so it
+should be avoided unless you are certain your
+system can handle it.</value>
   </data>
   <data name="&gt;&gt;jobLabel.Name" xml:space="preserve">
     <value>jobLabel</value>
@@ -333,6 +410,11 @@
   <data name="updateCheck.Text" xml:space="preserve">
     <value>Check for repo updates</value>
   </data>
+  <data name="updateCheck.ToolTip" xml:space="preserve">
+    <value>Check this if you would like to check for
+updates to your selected repository
+prior to compiling your executable.</value>
+  </data>
   <data name="&gt;&gt;updateCheck.Name" xml:space="preserve">
     <value>updateCheck</value>
   </data>
@@ -360,6 +442,20 @@
   <data name="jobNumber.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
     <value>Right</value>
   </data>
+  <data name="jobNumber.ToolTip" xml:space="preserve">
+    <value>This determines the number of jobs that will be
+allocated to the build process. By default, it is set to
+the number of cores of your system minus 2, but
+can be changed to any number you choose. Larger
+numbers can speed up the process to a certain
+point. Eventually performance takes an overall hit in
+some cases however.
+
+WARNING: If the value is set to 0, NO limit will be
+put into place. This could be problematic, so it
+should be avoided unless you are certain your
+system can handle it.</value>
+  </data>
   <data name="&gt;&gt;jobNumber.Name" xml:space="preserve">
     <value>jobNumber</value>
   </data>
@@ -383,6 +479,13 @@
   </data>
   <data name="backupText.TabIndex" type="System.Int32, mscorlib">
     <value>29</value>
+  </data>
+  <data name="backupText.ToolTip" xml:space="preserve">
+    <value>This allows you to select a directory to be used for
+assorted backup processes. This includes backing
+up existing, non-git folders of the required names
+as well as a temporary location for the 'build.log'
+file until the build is complete.</value>
   </data>
   <data name="&gt;&gt;backupText.Name" xml:space="preserve">
     <value>backupText</value>
@@ -416,6 +519,13 @@
   </data>
   <data name="labelBackup.Text" xml:space="preserve">
     <value>Backup Directory:</value>
+  </data>
+  <data name="labelBackup.ToolTip" xml:space="preserve">
+    <value>This allows you to select a directory to be used for
+assorted backup processes. This includes backing
+up existing, non-git folders of the required names
+as well as a temporary location for the 'build.log'
+file until the build is complete.</value>
   </data>
   <data name="&gt;&gt;labelBackup.Name" xml:space="preserve">
     <value>labelBackup</value>
@@ -453,6 +563,13 @@
   <data name="backupBrowse.Text" xml:space="preserve">
     <value>Browse...</value>
   </data>
+  <data name="backupBrowse.ToolTip" xml:space="preserve">
+    <value>This allows you to select a directory to be used for
+assorted backup processes. This includes backing
+up existing, non-git folders of the required names
+as well as a temporary location for the 'build.log'
+file until the build is complete.</value>
+  </data>
   <data name="&gt;&gt;backupBrowse.Name" xml:space="preserve">
     <value>backupBrowse</value>
   </data>
@@ -485,6 +602,12 @@
   </data>
   <data name="checkDepend.Text" xml:space="preserve">
     <value>Check for MSYS2 dependency updates</value>
+  </data>
+  <data name="checkDepend.ToolTip" xml:space="preserve">
+    <value>Check for any MSYS2 dependency updates.
+This is generally unnecessary after initial
+build, but you can check for updates later
+should you so choose.</value>
   </data>
   <data name="&gt;&gt;checkDepend.Name" xml:space="preserve">
     <value>checkDepend</value>
@@ -540,6 +663,9 @@
   <data name="buttonCompile.Text" xml:space="preserve">
     <value>Compile</value>
   </data>
+  <data name="buttonCompile.ToolTip" xml:space="preserve">
+    <value>Click here to compile your executable.</value>
+  </data>
   <data name="&gt;&gt;buttonCompile.Name" xml:space="preserve">
     <value>buttonCompile</value>
   </data>
@@ -570,6 +696,11 @@
   <data name="labelMSYS2.Text" xml:space="preserve">
     <value>MSYS2 Directory:</value>
   </data>
+  <data name="labelMSYS2.ToolTip" xml:space="preserve">
+    <value>This allows you to select the location of your MSYS2
+installation. It defaults to the root of the C drive, but
+it can be changed to wherever it needs to be.</value>
+  </data>
   <data name="&gt;&gt;labelMSYS2.Name" xml:space="preserve">
     <value>labelMSYS2</value>
   </data>
@@ -590,6 +721,11 @@
   </data>
   <data name="textMSYS2.TabIndex" type="System.Int32, mscorlib">
     <value>36</value>
+  </data>
+  <data name="textMSYS2.ToolTip" xml:space="preserve">
+    <value>This allows you to select the location of your MSYS2
+installation. It defaults to the root of the C drive, but
+it can be changed to wherever it needs to be.</value>
   </data>
   <data name="&gt;&gt;textMSYS2.Name" xml:space="preserve">
     <value>textMSYS2</value>
@@ -623,6 +759,11 @@
   </data>
   <data name="buttonMSYS2.Text" xml:space="preserve">
     <value>Browse...</value>
+  </data>
+  <data name="buttonMSYS2.ToolTip" xml:space="preserve">
+    <value>This allows you to select the location of your MSYS2
+installation. It defaults to the root of the C drive, but
+it can be changed to wherever it needs to be.</value>
   </data>
   <data name="&gt;&gt;buttonMSYS2.Name" xml:space="preserve">
     <value>buttonMSYS2</value>
@@ -660,6 +801,14 @@
   <data name="checkLog.Text" xml:space="preserve">
     <value>Keep Compiling Log Open</value>
   </data>
+  <data name="checkLog.ToolTip" xml:space="preserve">
+    <value>If checked, this will ensure that the terminal
+windows remain open even once they are
+finished. If checked, it means that each terminal
+window (up to three if updating repository and
+MSYS2) will need to be closed before the process
+will continue.</value>
+  </data>
   <data name="&gt;&gt;checkLog.Name" xml:space="preserve">
     <value>checkLog</value>
   </data>
@@ -690,6 +839,13 @@
   <data name="labelROM.Text" xml:space="preserve">
     <value>Baserom directory:</value>
   </data>
+  <data name="labelROM.ToolTip" xml:space="preserve">
+    <value>This allows you to select your existing baserom
+copy. This reference will only be used if the baserom
+is not already present in the local repository thus
+making it a requirement for initial builds or full
+re-builds.</value>
+  </data>
   <data name="&gt;&gt;labelROM.Name" xml:space="preserve">
     <value>labelROM</value>
   </data>
@@ -710,6 +866,13 @@
   </data>
   <data name="textROM.TabIndex" type="System.Int32, mscorlib">
     <value>40</value>
+  </data>
+  <data name="textROM.ToolTip" xml:space="preserve">
+    <value>This allows you to select your existing baserom
+copy. This reference will only be used if the baserom
+is not already present in the local repository thus
+making it a requirement for initial builds or full
+re-builds.</value>
   </data>
   <data name="&gt;&gt;textROM.Name" xml:space="preserve">
     <value>textROM</value>
@@ -743,6 +906,13 @@
   </data>
   <data name="buttonROM.Text" xml:space="preserve">
     <value>Browse...</value>
+  </data>
+  <data name="buttonROM.ToolTip" xml:space="preserve">
+    <value>This allows you to select your existing baserom
+copy. This reference will only be used if the baserom
+is not already present in the local repository thus
+making it a requirement for initial builds or full
+re-builds.</value>
   </data>
   <data name="&gt;&gt;buttonROM.Name" xml:space="preserve">
     <value>buttonROM</value>
@@ -807,6 +977,10 @@
   <data name="checkTerm.Text" xml:space="preserve">
     <value>Show Terminal</value>
   </data>
+  <data name="checkTerm.ToolTip" xml:space="preserve">
+    <value>If checked, the terminal interface that functions
+in the background normally will instead be shown.</value>
+  </data>
   <data name="&gt;&gt;checkTerm.Name" xml:space="preserve">
     <value>checkTerm</value>
   </data>
@@ -836,6 +1010,13 @@
   </data>
   <data name="checkShortcut.Text" xml:space="preserve">
     <value>Create Shortcut</value>
+  </data>
+  <data name="checkShortcut.ToolTip" xml:space="preserve">
+    <value>If checked, the final result of the build process will
+be the creation of a folder containing a shortcut to
+your newly created executable. In addition, the
+game's save and configuration files will reside here
+on some versions.</value>
   </data>
   <data name="&gt;&gt;checkShortcut.Name" xml:space="preserve">
     <value>checkShortcut</value>
@@ -887,6 +1068,10 @@
   </data>
   <data name="advancedBar.TabIndex" type="System.Int32, mscorlib">
     <value>46</value>
+  </data>
+  <data name="advancedBar.ToolTip" xml:space="preserve">
+    <value>Click here to open or close the advanced build
+options panel.</value>
   </data>
   <data name="&gt;&gt;advancedBar.Name" xml:space="preserve">
     <value>advancedBar</value>
@@ -1022,6 +1207,15 @@ broken by future repo changes.</value>
   <data name="renderCombo.TabIndex" type="System.Int32, mscorlib">
     <value>49</value>
   </data>
+  <data name="renderCombo.ToolTip" xml:space="preserve">
+    <value>Allows you to select your target render API.
+
+The options are:
+OpenGL 2.1
+Direct3D 11
+Direct3D 12
+OpenGL 1.3 (Legacy)</value>
+  </data>
   <data name="&gt;&gt;renderCombo.Name" xml:space="preserve">
     <value>renderCombo</value>
   </data>
@@ -1048,6 +1242,15 @@ broken by future repo changes.</value>
   </data>
   <data name="labelRender.Text" xml:space="preserve">
     <value>Render API</value>
+  </data>
+  <data name="labelRender.ToolTip" xml:space="preserve">
+    <value>Allows you to select your target render API.
+
+The options are:
+OpenGL 2.1
+Direct3D 11
+Direct3D 12
+OpenGL 1.3 (Legacy)</value>
   </data>
   <data name="&gt;&gt;labelRender.Name" xml:space="preserve">
     <value>labelRender</value>
@@ -1082,6 +1285,15 @@ broken by future repo changes.</value>
   <data name="drawCheck.Text" xml:space="preserve">
     <value>No Draw Distance</value>
   </data>
+  <data name="drawCheck.ToolTip" xml:space="preserve">
+    <value>This turns of the draw distance limitation and allows
+all objects (enemies, coins, etc.) to be rendered at all
+distances.
+
+This has the side effect of not removing these items
+behaviors when away including sound effects and
+movement.</value>
+  </data>
   <data name="&gt;&gt;drawCheck.Name" xml:space="preserve">
     <value>drawCheck</value>
   </data>
@@ -1114,6 +1326,12 @@ broken by future repo changes.</value>
   </data>
   <data name="extCheck.Text" xml:space="preserve">
     <value>Load External Data</value>
+  </data>
+  <data name="extCheck.ToolTip" xml:space="preserve">
+    <value>This allows external data to be utilized by the
+game at launch. This allows for some level of
+"hot modding" the game by simply dropping
+files into the correct folder.</value>
   </data>
   <data name="&gt;&gt;extCheck.Name" xml:space="preserve">
     <value>extCheck</value>
@@ -1148,6 +1366,11 @@ broken by future repo changes.</value>
   <data name="saveCheck.Text" xml:space="preserve">
     <value>Text Saves (Experimental)</value>
   </data>
+  <data name="saveCheck.ToolTip" xml:space="preserve">
+    <value>An experimental feature to save data as plain text
+rather than data. This will allow for simple save
+edits via a standard word processing application.</value>
+  </data>
   <data name="&gt;&gt;saveCheck.Name" xml:space="preserve">
     <value>saveCheck</value>
   </data>
@@ -1181,6 +1404,11 @@ broken by future repo changes.</value>
   <data name="discordCheck.Text" xml:space="preserve">
     <value>Enable Discord Rich Presence</value>
   </data>
+  <data name="discordCheck.ToolTip" xml:space="preserve">
+    <value>This enables Discord Rich Presence support. This
+allows Discord to connect to your executable and
+show your current level on your Discord status.</value>
+  </data>
   <data name="&gt;&gt;discordCheck.Name" xml:space="preserve">
     <value>discordCheck</value>
   </data>
@@ -1207,6 +1435,16 @@ broken by future repo changes.</value>
   </data>
   <data name="versionLabel.Text" xml:space="preserve">
     <value>Version</value>
+  </data>
+  <data name="versionLabel.ToolTip" xml:space="preserve">
+    <value>This allows you to select the regional version you
+wish to build. This includes US, JP, EU, and SH.
+This also influences the hash checks of the
+baserom both at selection and compiling.
+
+WARNING: Shindou version is experimental and
+will most likely not build in its current state. This
+however may change in time.</value>
   </data>
   <data name="&gt;&gt;versionLabel.Name" xml:space="preserve">
     <value>versionLabel</value>
@@ -1241,6 +1479,16 @@ broken by future repo changes.</value>
   <data name="verCombo.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
   </data>
+  <data name="verCombo.ToolTip" xml:space="preserve">
+    <value>This allows you to select the regional version you
+wish to build. This includes US, JP, EU, and SH.
+This also influences the hash checks of the
+baserom both at selection and compiling.
+
+WARNING: Shindou version is experimental and
+will most likely not build in its current state. This
+however may change in time.</value>
+  </data>
   <data name="&gt;&gt;verCombo.Name" xml:space="preserve">
     <value>verCombo</value>
   </data>
@@ -1273,6 +1521,11 @@ broken by future repo changes.</value>
   </data>
   <data name="textureCheck.Text" xml:space="preserve">
     <value>Texture Fix (smoke fix)</value>
+  </data>
+  <data name="textureCheck.ToolTip" xml:space="preserve">
+    <value>This is a texture fix, primarily to address a known
+bug in the original game which prevented the smoke
+animation from running when Mario is burnt.</value>
   </data>
   <data name="&gt;&gt;textureCheck.Name" xml:space="preserve">
     <value>textureCheck</value>
@@ -1307,6 +1560,12 @@ broken by future repo changes.</value>
   <data name="optionsCheck.Text" xml:space="preserve">
     <value>Extra Options Menu</value>
   </data>
+  <data name="optionsCheck.ToolTip" xml:space="preserve">
+    <value>This enables an extra options menu from the pause
+menu. This is accessed by the "R" button on the N64
+controller. Keybinding for your keyboard and/or
+controller may vary.</value>
+  </data>
   <data name="&gt;&gt;optionsCheck.Name" xml:space="preserve">
     <value>optionsCheck</value>
   </data>
@@ -1336,6 +1595,17 @@ broken by future repo changes.</value>
   </data>
   <data name="camCheck.Text" xml:space="preserve">
     <value>BetterCam</value>
+  </data>
+  <data name="camCheck.ToolTip" xml:space="preserve">
+    <value>This introduces an analog, free control camera.
+While the control is free, it also lacks the native
+scripted camera movements from the original and
+you must control the camera at all times relative
+to Mario.
+
+Some levels, notably the Bowser levels, revert to the
+original camera for technical reasons outside the
+scope of this utility.</value>
   </data>
   <data name="&gt;&gt;camCheck.Name" xml:space="preserve">
     <value>camCheck</value>
@@ -4725,6 +4995,12 @@ broken by future repo changes.</value>
   </data>
   <data name="&gt;&gt;folderBrowserDialog1.Type" xml:space="preserve">
     <value>System.Windows.Forms.FolderBrowserDialog, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolTipMain.Name" xml:space="preserve">
+    <value>toolTipMain</value>
+  </data>
+  <data name="&gt;&gt;toolTipMain.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolTip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;$this.Name" xml:space="preserve">
     <value>Main</value>

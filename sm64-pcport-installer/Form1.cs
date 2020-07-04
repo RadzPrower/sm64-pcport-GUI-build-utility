@@ -532,6 +532,7 @@ namespace sm64_pcport_installer
             minttyStart.Arguments = baseArgs + commands + " |& tee msys2.log'";
 
             // Add call to log file
+            addToLog(minttyStart.FileName);
             addToLog(minttyStart.Arguments);
 
             minttyStart.UseShellExecute = false;
@@ -560,6 +561,7 @@ namespace sm64_pcport_installer
             minttyStart.Arguments = baseArgs + commands + " |& tee msys2.log'";
 
             // Add call to log file
+            addToLog(minttyStart.FileName);
             addToLog(minttyStart.Arguments);
 
             minttyStart.UseShellExecute = false;
