@@ -14,7 +14,8 @@ The build tool in general requires little in way of instructions as if you want 
 
 However, there are a number of options available to you should you want to control your build process just a bit more.
 
-![GUI Illustration](https://i.imgur.com/iBEM32q.png)
+# Standard Build Options
+![Standard Build Illustration](https://i.imgur.com/iBEM32q.png)
 
 In the top left corner, you will have three radio buttons which you can use to select which of the three main repository you would like to pull from: Official, SM64 EX, or SM64 (nightly).
 
@@ -31,9 +32,31 @@ Next are three directory fields that allow you to select certain directory locat
 * MSYS2 Directory - This is the root directory of the MSYS2 ecosystem. If you configured MSYS2 as laid out on the website above, this should not need to be changed.
 * ROM Directory - This is the directory from where you will pull your local copy of baserom.us.64. By default, this directory will be the same as the executable.
 
-Near the bottom, we have a log field. While it does not pull information directly from the make process, it does pipe out updates in terms of what the GUi is doing. This can be copied and pasted should an error occur to assist with troubleshooting.
+Near the bottom, we have a log field. This can be copied and pasted should an error occur to assist with troubleshooting.
 
-Speaking of troubleshooting, the two checkboxes at the bottom are for troubleshooting as well as those who just like to watch what their computer is doing behind the scenes. By default, they are both unchecked, but if you check "Show Terminal" the terminal will be unhidden and you can see information presented that is not visible from the GUI (yet). If you check "Keep Compiling Log Open" (which is disabled if "Show Terminal" is unchecked), the terminal windows will NOT close on their own. You can use this to examine them yourself or to provide in case of troubleshooting errors or other unclear issues.
+# Advanced Build Options
+![Advanced Build Illustration](https://i.imgur.com/cCFWk90.png)
+Speaking of troubleshooting, there are troubleshooting options in the new advanced build options panel. The two checkboxes at the bottom are for troubleshooting as well as those who just like to watch what their computer is doing behind the scenes. By default, they are both unchecked, but if you check "Show Terminal" the terminal will be unhidden and you can see information presented that is not visible from the GUI (yet). If you check "Keep Compiling Log Open" (which is disabled if "Show Terminal" is unchecked), the terminal windows will NOT close on their own. You can use this to examine them yourself or to provide in case of troubleshooting errors or other unclear issues.
+
+Also, there are now "Make Options" which are available for use. These options are different between different repositories and will be checked/unchecked and disabled/enabled based on their compatibility.
+
+Version - This allows you to select the region version used for building. This includes changes to the hash check to ensure that the version of your ROM and the version you are attempting to build match. Shindou version is selectable as it is an option for the make process, though it is broken at a repsository level. I was personally never able to get a version to compile with this option, but it may be fixed in the future, so I left it in and simply warn you that it is may be broken.
+
+Render API - This allows you to choose the render API for your compile. The default is OpenGL 2.1, but Direct3D 11 and 12 are also options, along with a legacy option for OpenGL 1.3.
+
+BetterCam - An alternative camera option which gives direct analog control of the camera (there are some programmed exceptions such as the Bowser levels). This places the control of the camera almost entirely on you as there is little scripted camera movement with this version.
+
+No Draw Distance - Turns off the draw distance of objects (i.e. Goombas, coins, Chain Chomp, etc.). This can cause some unusual behavior including continual sound effects due to objects not being removed when out of range.
+
+Texture Fix (smoke fix) - This fixes a known bug in the original game which prevented the smoke texture when Mario is burnt from actually animating.
+
+Extra Options Menu - This allows you to open an additional menu from the pause menu by pressing "R" (as mapped to a N64 controller, not the R key on your keyboard). This includes some changes to the visuals, fullscreen toggle, sounds, keybinds, and camera controls.
+
+Load External Data - Allows for the loading of external data, primarily textures, for post-compile modding purposes. The format for these files must follow a particular structure, but it is fluid, so you will need to check the pertinent repositories for more details regarding the current structures required.
+
+Enable Discord Rich Presence - Allows for Discord to hook into the SM64 executable and share your game status including what level you are currently playing.
+
+Text Saves (Experimental) - A currently experimental option that allows for saves to be handled via a plain text file rather than the existing encoding. This means you can modify a save file by simply changing some clearly labelled values. It is experimental though, so problems may arise if you use it.
 
 # Closing
 I hope this tool serves you well and I hope to be able to continue making updates including patch support in time. Thanks!
