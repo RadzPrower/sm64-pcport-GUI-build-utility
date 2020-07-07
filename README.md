@@ -61,6 +61,6 @@ Text Saves (Experimental) - A currently experimental option that allows for save
 # Closing
 I hope this tool serves you well and I hope to be able to continue making updates including patch support in time. Thanks!
 
-If you have issues, you can always reach out here of course, but I also frequent all the usual help desk channels at the two main Discord servers as well ([sm64-port](https://discord.gg/7bcNTPK) and [sm64ex](https://discord.gg/ZezK78p). I try and check there pretty frequently during the day (US East Coast), but sometimes I'm working on other things and might not be there. Feel free to call me out specifically with @RadzPrower and that will give me a notification and I'll be more likely to see it...assuming I'm not asleep, of course.
+If you have issues, you can always reach out here of course, but I also frequent all the usual help desk channels at the two main Discord servers as well ([sm64-port](https://discord.gg/7bcNTPK) and [sm64ex](https://discord.gg/ZezK78p)). I try and check there pretty frequently during the day (US East Coast), but sometimes I'm working on other things and might not be there. Feel free to call me out specifically with @RadzPrower and that will give me a notification and I'll be more likely to see it...assuming I'm not asleep, of course.
 
 Logo courtesy of SunlitSpace542
