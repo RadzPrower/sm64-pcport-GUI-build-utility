@@ -1,3 +1,6 @@
+# New Launcher Released
+This utility is essentially ending its lifespan, at least for the time being. I have created a new, all-in-one launcher for the sm64nx project that includes PAK database support so that new PAK mods can be introduced without a whole new executable being required. Most of my efforts will be focus on that project for now. You can download the newest release at https://github.com/ajohns6/SM64-NX-Launcher/releases.
+
 # sm64-pcport-installer
 A GUI tool for compiling the Super Mario 64 port into a Windows executable. Executable download can be found [here](https://github.com/ajohns6/sm64-pcport-GUI-build-utility/releases).
 # Introduction
@@ -36,6 +39,7 @@ Near the bottom, we have a log field. This can be copied and pasted should an er
 
 # Advanced Build Options
 ![Advanced Build Illustration](https://i.imgur.com/cCFWk90.png)
+
 Speaking of troubleshooting, there are troubleshooting options in the new advanced build options panel. The two checkboxes at the bottom are for troubleshooting as well as those who just like to watch what their computer is doing behind the scenes. By default, they are both unchecked, but if you check "Show Terminal" the terminal will be unhidden and you can see information presented that is not visible from the GUI (yet). If you check "Keep Compiling Log Open" (which is disabled if "Show Terminal" is unchecked), the terminal windows will NOT close on their own. You can use this to examine them yourself or to provide in case of troubleshooting errors or other unclear issues.
 
 Also, there are now "Make Options" which are available for use. These options are different between different repositories and will be checked/unchecked and disabled/enabled based on their compatibility.
