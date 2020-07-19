@@ -1,5 +1,5 @@
 # New Launcher Released
-This utility is essentially ending its lifespan, at least for the time being. I have created a new, all-in-one launcher for the sm64nx project that includes PAK database support so that new PAK mods can be introduced without a whole new executable being required. Most of my efforts will be focus on that project for now. You can download the newest release at https://github.com/ajohns6/SM64-NX-Launcher/releases.
+This utility is essentially ending its lifespan, at least for the time being. I have created a new, all-in-one launcher for the sm64nx project that includes PAK database support so that new PAK mods can be introduced without a whole new executable being required. Most of my efforts will be focused on that project for now. You can download the newest release at https://github.com/ajohns6/SM64-NX-Launcher/releases.
 
 # sm64-pcport-installer
 A GUI tool for compiling the Super Mario 64 port into a Windows executable. Executable download can be found [here](https://github.com/ajohns6/sm64-pcport-GUI-build-utility/releases).
